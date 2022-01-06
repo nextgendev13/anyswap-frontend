@@ -199,7 +199,7 @@ ${({ theme }) => theme.FlexC};
   font-style: normal;
   line-height: 1;
   letter-spacing: normal;
-  color: #734be2;
+  color: #09BE8B;
   white-space:nowrap;
 
   :hover,
@@ -279,15 +279,15 @@ const HDpathListBox = styled.ul`
     cursor:pointer;
     
     &.active {
-      border: 0.0625rem solid #734be2;
-      color: #734be2;
+      border: 0.0625rem solid #09BE8B;
+      color: #09BE8B;
       font-weight: bold;
     }
     &:first-child {
       border-top-left-radius: 6px;
       border-bottom-left-radius: 6px;
       &.active {
-        border: 0.0625rem solid #734be2;
+        border: 0.0625rem solid #09BE8B;
       }
     }
     &:last-child {
@@ -295,7 +295,7 @@ const HDpathListBox = styled.ul`
       border-bottom-right-radius: 6px;
       border-right: 0.0625rem solid rgba(0, 0, 0, 0.04);
       &.active {
-        border: 0.0625rem solid #734be2;
+        border: 0.0625rem solid #09BE8B;
       }
     }
   }

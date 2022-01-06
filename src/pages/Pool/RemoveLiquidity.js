@@ -255,7 +255,7 @@ const TxnsDtilBtn = styled.div`
   font-style: normal;
   line-height: 1;
   letter-spacing: normal;
-  color: #734be2;
+  color: #09BE8B;
   cursor:pointer;
   padding: 0 0.625rem;
 `

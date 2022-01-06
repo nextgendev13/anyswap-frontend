@@ -497,7 +497,7 @@ const SubCurrencySelectBox1 = styled.div`
       font-style: normal;
       line-height: 1;
       letter-spacing: normal;
-      color: #734be2;
+      color: #09BE8B;
       margin-left:8px;
     }
   }
@@ -510,8 +510,8 @@ const SubCurrencySelect = styled.button`
   outline: none;
   cursor: pointer;
   user-select: none;
-  background: #734be2;
-  border: #734be2;
+  background: #09BE8B;
+  border: #09BE8B;
   color: ${({ theme }) => theme.inputBackground};
 
   &.otherView {

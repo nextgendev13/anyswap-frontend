@@ -56,8 +56,8 @@ export const SubCurrencySelect = styled.button`
   outline: none;
   cursor: pointer;
   user-select: none;
-  background: #734be2;
-  border: #734be2;
+  background: #09BE8B;
+  border: #09BE8B;
   color: ${({ theme }) => theme.inputBackground};
 
   &.otherView {
@@ -86,7 +86,7 @@ export const SubCurrencySelectBox = styled.div`
       font-style: normal;
       line-height: 1;
       letter-spacing: normal;
-      color: #734be2;
+      color: #09BE8B;
       margin-left:8px;
     }
   }
@@ -94,7 +94,7 @@ export const SubCurrencySelectBox = styled.div`
 
 export const CurrencySelect = styled.button`
   align-items: center;
-  color: ${({ selected, theme }) => (selected ? theme.textColor : '#031a6e')};
+  color: ${({ selected, theme }) => (selected ? theme.textColor : '#00684a')};
   font-size: ${({ selected, theme }) => (selected ? '1rem' : '12px')};
   height: 70px;
   font-family: 'Manrope';

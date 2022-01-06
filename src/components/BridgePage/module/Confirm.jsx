@@ -124,7 +124,7 @@ const ConfirmText = styled.div`
   line-height: 1;
   letter-spacing: normal;
   text-align: center;
-  color: #734be2;
+  color: #09BE8B;
   padding: 1.25rem 0;
   border-top: 0.0625rem solid rgba(0, 0, 0, 0.08);
   margin-top:1.25rem

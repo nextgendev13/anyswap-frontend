@@ -41,7 +41,7 @@ const BetaMessage = styled.div`
   //   top: 0.8rem;
   //   right: 1rem;
   //   position: absolute;
-  //   color: #734be2;
+  //   color: #09BE8B;
   // }
   .confirm {
     ${({ theme }) => theme.FlexC};
@@ -51,7 +51,7 @@ const BetaMessage = styled.div`
     outline: none;
     cursor: pointer;
     user-select: none;
-    border: #734be2;
+    border: #09BE8B;
     top: 50%;
     right: 1rem;
     position: absolute;

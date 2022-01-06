@@ -24,10 +24,10 @@ const mediaWidthTemplates = Object.keys(MEDIA_WIDTHS).reduce((accumulator, size)
 const white = '#ffffff'
 const black = '#000000'
 
-const purple = '#734be2'
+const purple = '#09BE8B'
 const gray = 'dadada'
-const gradientPurpleTB = 'linear-gradient(to bottom, #5f6bfb , #724de4)'
-const gradientPurpleLR = 'linear-gradient(to right, #5f6bfb , #724de4)'
+const gradientPurpleTB = 'linear-gradient(to bottom, #46d8af , #098663)'
+const gradientPurpleLR = 'linear-gradient(to right, #46d8af , #098663)'
 const darkContentBg = '#21263e'
 const darkSelectBg = '#2b314f'
 
@@ -60,10 +60,10 @@ const theme = darkMode => ({
   darkContentBg,
   darkSelectBg,
 
-  textColor: darkMode ? '#979dac' : '#031a6e',
-  textColor1: darkMode ? white : '#031a6e',
+  textColor: darkMode ? '#979dac' : '#00684a',
+  textColor1: darkMode ? white : '#00684a',
   textColorBold: darkMode ? white : '#062536',
-  selectTextColor: darkMode ? white : '#031a6e',
+  selectTextColor: darkMode ? white : '#00684a',
   greyText: darkMode ? white : '#6C7284',
 
   // for setting css on <html>
@@ -80,7 +80,7 @@ const theme = darkMode => ({
   selectedHoverBg: darkMode ? '#252b49' : '#deefff',
 
   selectedBorder: darkMode ? '#363d5f' : '#c0d6ea',
-  selectedHoverBorder: darkMode ? '#4a5482' : '#6d9cc6',
+  selectedHoverBorder: darkMode ? '#4a5482' : '#4db698',
 
   selectedBgNo: darkMode ? darkSelectBg : '#f8f8f9',
   selectedHoverBgNo: darkMode ? '#252b49' : '#f2f2f2',
@@ -96,29 +96,29 @@ const theme = darkMode => ({
   tipContentBg: darkMode ? darkSelectBg : '#ededed',
   dtilContentBg: darkMode ? darkSelectBg : white,
 
-  navBg: darkMode ? '#21263e' : '#031a6e',
-  navBg2: darkMode ? '#363d5f' : '#031a6e',
+  navBg: darkMode ? '#21263e' : '#00684a',
+  navBg2: darkMode ? '#363d5f' : '#00684a',
   navBg3: darkMode ? '#363d5f' : 'rgba(0,0,0,0.05)',
   navColor: darkMode ? '#979dac' : '#062536',
 
   tabBg: darkMode ? '#2b314f' : white,
-  tabActiveBg: darkMode ? '#6725fc' : 'none',
+  tabActiveBg: darkMode ? '#3cda7b' : 'none',
   tabColor: darkMode ? white : '#96989e',
-  tabActiveColor: darkMode ? white : '#734be2',
-  tabBdColor: darkMode ? 'none' : '#734be2',
+  tabActiveColor: darkMode ? white : '#09BE8B',
+  tabBdColor: darkMode ? 'none' : '#09BE8B',
 
   dtilTxtBg: darkMode ? 'none' : 'rgb(240, 240, 240)',
   dtilTxtBorder: darkMode ? '#5c677d' : 'rgb(218, 218, 218)',
 
   tipBg: darkMode ? '#2b314f' : '#f2edff',
   tipBorder: darkMode ? '#2b314f' : '#b398f9',
-  tipColor: darkMode ? white : '#734be2',
+  tipColor: darkMode ? white : '#09BE8B',
 
   inputBorder: darkMode ? '#5c677d' : '#062536',
   
   networkBorder: darkMode ? '#5c677d' : '#dadada',
 
-  switchColor: darkMode ? '#00bde3' : '#734be2',
+  switchColor: darkMode ? '#00bde3' : '#09BE8B',
 
   birdgeStateBg: darkMode ? 'rgba(0,0,0,0.6)' : '#fff5e0',
   birdgeStateBorder: darkMode ? 'rgba(0,0,0,0.6)' : '#e3d1aa',
@@ -136,7 +136,7 @@ const theme = darkMode => ({
   shadowColor: darkMode ? '#000' : '#2F80ED',
 
   bgColor: darkMode ? 'rgba(0,0,0,0.1)' : white,
-  bgColorLinear: 'linear-gradient(to right, #734ce2 , #606bfb)',
+  bgColorLinear: 'linear-gradient(to right, #09BE8B , #0fa87d)',
 
   CommingSoon: darkMode ? 'rgba(0,0,0,0.6)' : '#f5f5f5',
 
@@ -156,7 +156,7 @@ const theme = darkMode => ({
   // blues
   zumthorBlue: darkMode ? '#212529' : '#EBF4FF',
   malibuBlue: darkMode ? '#E67AEF' : '#5CA2FF',
-  royalBlue: darkMode ? '#734be2' : '#734be2',
+  royalBlue: darkMode ? '#09BE8B' : '#09BE8B',
   loadingBlue: darkMode ? '#e4f0ff' : '#e4f0ff',
 
   // purples

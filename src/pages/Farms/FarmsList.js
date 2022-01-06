@@ -37,7 +37,7 @@ width: 50%;
 height: 220px;
 margin-bottom: 20px;
 .default {
-  background: linear-gradient(180deg, #81BEFA 0%, #4A8AF4 100%);
+  background: linear-gradient(180deg, #5ff4a1 0%, #1dae57 100%);
 }
 &:nth-child(2n) {
   padding-left: 10px;

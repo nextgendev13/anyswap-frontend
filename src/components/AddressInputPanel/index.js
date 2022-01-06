@@ -50,7 +50,7 @@ const CloseColor = styled(Close)`
   height: 12px;
   cursor:pointer;
   path {
-    stroke: #734be2;
+    stroke: #09BE8B;
   }
 `
 

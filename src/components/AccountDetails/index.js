@@ -38,7 +38,7 @@ ${({ theme }) => theme.FlexC}
   line-height: 1;
   letter-spacing: normal;
   text-align: right;
-  color: #734be2;
+  color: #09BE8B;
   cursor:pointer;
 `
 

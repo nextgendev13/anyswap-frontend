@@ -22,7 +22,7 @@ const MessageWrapper = styled.div`
 `
 
 const Message = styled.h2`
-  color: #031a6e;
+  color: #00684a;
   font-size:14px;
 `
 

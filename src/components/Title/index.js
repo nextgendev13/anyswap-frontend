@@ -78,7 +78,7 @@ const TabLinkBox = styled.ul`
       color: ${({ theme }) => theme.tabActiveColor};
       font-weight: bold;
       .icon {
-        background: #734be2;
+        background: #09BE8B;
       }
     }
     @media screen and (max-width: 960px) {
@@ -142,7 +142,7 @@ const StyledNavLink = styled(NavLink).attrs({
     color: ${({ theme }) => theme.tabActiveColor};
     font-weight: bold;
     .icon {
-      background: #734be2;
+      background: #09BE8B;
     }
   }
   @media screen and (max-width: 960px) {

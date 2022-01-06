@@ -166,7 +166,7 @@ font-family: 'Manrope';
   
   line-height: 1.17;
   
-  color: #734be2;
+  color: #09BE8B;
   margin: 1.25rem auto 0;
   cursor:pointer;
 `
@@ -243,11 +243,11 @@ const RewardsBox = styled.div`
       border-bottom:none;
       .left {
         .name {
-          color: #734be2;
+          color: #09BE8B;
         }
       }
       .value {
-        color: #734be2;
+        color: #09BE8B;
       }
     }
   }
