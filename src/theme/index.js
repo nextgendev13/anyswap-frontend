@@ -26,8 +26,8 @@ const black = '#000000'
 
 const purple = '#09BE8B'
 const gray = 'dadada'
-const gradientPurpleTB = 'linear-gradient(to bottom, #46d8af , #098663)'
-const gradientPurpleLR = 'linear-gradient(to right, #46d8af , #098663)'
+const gradientPurpleTB = 'linear-gradient(to bottom, #09a5be, #9cd03b)'
+const gradientPurpleLR = 'linear-gradient(to right, #09a5be, #9cd03b)'
 const darkContentBg = '#21263e'
 const darkSelectBg = '#2b314f'
 
@@ -136,7 +136,7 @@ const theme = darkMode => ({
   shadowColor: darkMode ? '#000' : '#2F80ED',
 
   bgColor: darkMode ? 'rgba(0,0,0,0.1)' : white,
-  bgColorLinear: 'linear-gradient(to right, #09BE8B , #0fa87d)',
+  bgColorLinear: 'linear-gradient(to right, #09a5be, #9cd03b)',
 
   CommingSoon: darkMode ? 'rgba(0,0,0,0.6)' : '#f5f5f5',
 
