@@ -28,8 +28,8 @@ const purple = '#09BE8B'
 const gray = 'dadada'
 const gradientPurpleTB = 'linear-gradient(to bottom, #09a5be, #9cd03b)'
 const gradientPurpleLR = 'linear-gradient(to right, #09a5be, #9cd03b)'
-const darkContentBg = '#21263e'
-const darkSelectBg = '#2b314f'
+const darkContentBg = '#333333'
+const darkSelectBg = '#6a6a6a'
 
 export default function ThemeProvider({ children }) {
   const [darkMode, toggleDarkMode] = useDarkModeManager()
@@ -73,22 +73,22 @@ const theme = darkMode => ({
   contentBg: darkMode ? darkContentBg : white,
   contentShadow: darkMode ? '7px 2px 26px 0 rgba(5, 6, 13, 0.24)' : '7px 2px 26px 0 rgba(0, 0, 0, 0.06)',
   dayOrNight: darkMode ? darkSelectBg : purple,
-  bodyBg: darkMode ? '#151a2f' : '#f9fafb',
+  bodyBg: darkMode ? '#262626' : '#f9fafb',
   lightPuroleBg: darkMode ? darkSelectBg : 'rgb(246, 244, 255)',
 
   selectedBg: darkMode ? darkSelectBg : '#ecf6ff',
   selectedHoverBg: darkMode ? '#252b49' : '#deefff',
 
-  selectedBorder: darkMode ? '#363d5f' : '#c0d6ea',
+  selectedBorder: darkMode ? '#6a6a6a' : '#c0d6ea',
   selectedHoverBorder: darkMode ? '#4a5482' : '#4db698',
 
   selectedBgNo: darkMode ? darkSelectBg : '#f8f8f9',
   selectedHoverBgNo: darkMode ? '#252b49' : '#f2f2f2',
 
-  selectedBorderNo: darkMode ? '#363d5f' : '#d9d9e2',
+  selectedBorderNo: darkMode ? '#6a6a6a' : '#d9d9e2',
   selectedHoverBorderNo: darkMode ? '#4a5482' : '#9c9cb0',
 
-  moreBtn: darkMode ? '#363d5f' : '#f9fafb',
+  moreBtn: darkMode ? '#6a6a6a' : '#f9fafb',
   viewMoreBtn: darkMode ? darkSelectBg : '#f9fafb',
 
   searchBg: darkMode ? darkSelectBg : white,
@@ -96,12 +96,12 @@ const theme = darkMode => ({
   tipContentBg: darkMode ? darkSelectBg : '#ededed',
   dtilContentBg: darkMode ? darkSelectBg : white,
 
-  navBg: darkMode ? '#21263e' : '#00684a',
-  navBg2: darkMode ? '#363d5f' : '#00684a',
-  navBg3: darkMode ? '#363d5f' : 'rgba(0,0,0,0.05)',
+  navBg: darkMode ? '#333333' : '#00684a',
+  navBg2: darkMode ? '#6a6a6a' : '#00684a',
+  navBg3: darkMode ? '#6a6a6a' : 'rgba(0,0,0,0.05)',
   navColor: darkMode ? '#979dac' : '#062536',
 
-  tabBg: darkMode ? '#2b314f' : white,
+  tabBg: darkMode ? '#6a6a6a' : white,
   tabActiveBg: darkMode ? '#3cda7b' : 'none',
   tabColor: darkMode ? white : '#96989e',
   tabActiveColor: darkMode ? white : '#09BE8B',
@@ -110,8 +110,8 @@ const theme = darkMode => ({
   dtilTxtBg: darkMode ? 'none' : 'rgb(240, 240, 240)',
   dtilTxtBorder: darkMode ? '#5c677d' : 'rgb(218, 218, 218)',
 
-  tipBg: darkMode ? '#2b314f' : '#f2edff',
-  tipBorder: darkMode ? '#2b314f' : '#b398f9',
+  tipBg: darkMode ? '#6a6a6a' : '#f2edff',
+  tipBorder: darkMode ? '#6a6a6a' : '#b398f9',
   tipColor: darkMode ? white : '#09BE8B',
 
   inputBorder: darkMode ? '#5c677d' : '#062536',
@@ -141,13 +141,13 @@ const theme = darkMode => ({
   CommingSoon: darkMode ? 'rgba(0,0,0,0.6)' : '#f5f5f5',
 
   // grays
-  concreteGray: darkMode ? '#363d5f' : '#FAFAFA',
+  concreteGray: darkMode ? '#6a6a6a' : '#FAFAFA',
   mercuryGray: darkMode ? '#333333' : '#E1E1E1',
   silverGray: darkMode ? '#737373' : '#C4C4C4',
   chaliceGray: darkMode ? '#7B7B7B' : '#AEAEAE',
   doveGray: darkMode ? '#C4C4C4' : '#737373',
   mineshaftGray: darkMode ? '#E1E1E1' : '#2B2B2B',
-  activeGray: darkMode ? '#363d5f' : '#F7F8FA',
+  activeGray: darkMode ? '#6a6a6a' : '#F7F8FA',
   buttonOutlineGrey: darkMode ? '#FAFAFA' : '#F2F2F2',
   tokenRowHover: darkMode ? '#404040' : '#F2F2F2',
 
